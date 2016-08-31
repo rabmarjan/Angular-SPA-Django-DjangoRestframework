@@ -1,0 +1,36 @@
+
+<br/><br/><br/><br/><br/><br/><br/><br/>
+<div class="row" style="margin-right:0px;">
+	
+	<div class="col-md-4 col-md-offset-4">
+				
+		<div class="module_gry" style="margin: auto;">														
+			<h3>Login</h3>
+			<div class="modulebody" style="height: 148px;">
+				<form method="post" id="SigninForm" name="SigninForm" autocomplete="off">
+		        	<div class="form-group">
+		            	<input type="text" data-ng-model="login.username" name="userid" class="form-control" placeholder="Login ID" required onClick="this.setSelectionRange(0, this.value.length)" />
+		            	<div class="errorMsg" data-i18n="{{msg.login.value}}" data-ng-show="msg.login.isShow"></div>
+		        	</div>
+			        <div class="form-group">
+			            <input type="password" data-ng-model="login.password" name="password" class="form-control" placeholder="Password" required onClick="this.setSelectionRange(0, this.value.length)" />
+			        	<div class="errorMsg" data-i18n="{{msg.password.value}}" data-ng-show="msg.password.isShow"></div>
+			        </div>          
+			        <div class="form-group">
+			            <button class="btn btn-primary" style="float:right;background-color:#5CAD5C;border-color: #5CAD5C;" ng-click="signIn(login)">Login</button> 
+		            </div>
+			    </form>	
+			
+			</div>		
+					
+		</div>
+		
+    </div>
+	
+</div>
+
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+

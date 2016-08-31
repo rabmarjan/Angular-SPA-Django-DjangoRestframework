@@ -1,0 +1,55 @@
+
+		
+		<section>
+			<div
+				class="container">
+				<div ng-repeat="product in ReportJSON" ng-if="$index % 2 == 0"
+					class="row">
+					<div  ng-if="ReportJSON.length > ($index)">
+					
+						<div class="col-md-6">
+							<div class="box box-rmms">
+								<div class="box-body">
+									<div class="inner">
+										<p class ="report-sub-heading" >{{ReportJSON[$index].name}}</p>
+										<p class ="ng-scope report-sub-link" data-ng-repeat="link in ReportJSON[$index].reportList"
+											data-ng-click="performClickAction(link.url)" style = "cursor: pointer"> 
+										   	<a >
+										   		<i class="{{link.class}}"></i>
+										   		<span>{{link.text}}</span>
+										     	
+										    </a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div  ng-if="ReportJSON.length > ($index + 1)">
+						
+							<div class="col-md-6">
+								<div class="box box-rmms">
+									<div class="box-body">
+										<div class="inner">
+											<p class ="report-sub-heading" >{{ReportJSON[$index+1].name}}</p>
+											<p class ="ng-scope report-sub-link" data-ng-repeat="link in ReportJSON[$index+1].reportList"
+												data-ng-click="performClickAction(link.url)" style = "cursor: pointer"> 
+											   	<a >
+											   		<i class="{{link.class}}"></i>
+											   		<span>{{link.text}}</span>
+											     	
+											    </a>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+		
+
+
+
+

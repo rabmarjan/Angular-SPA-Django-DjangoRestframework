@@ -1,0 +1,88 @@
+
+.nav >li > a{ 
+	padding:0px  0px !important;
+}
+
+.navbar {
+	min-height:5px !important;
+}
+.topMenu_001{
+	background-color: #009999;
+	
+}
+.panel-title{
+	font-size: 12px !important;
+}
+body {
+	font-size: 12px !important;
+}
+.glyphicon_01{
+	font-size: 8px !important;
+}
+.panel-collapse{
+	margin-left: 2em;
+}
+hr {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    border: 0;
+    border-top: 2px solid #eee !important;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+div.module_gry_01 {
+    border: #B0BAA6 1px solid;
+    height: auto;
+    text-align: left;
+    background-color: #fff;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+div.module_gry_02 {
+    border: #B0BAA6 1px solid;
+    height: auto;
+    text-align: left;
+    background-color: #fff;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.header_top{
+	border-bottom : 4px solid #E40000;
+	height : 15px;
+	width: 101%
+}
+.header_top1{
+	height:20px;
+}
+.display_block{
+	display: block;
+}
+.margin_footer{
+	margin:0px;
+}
+.padding_margin{
+	padding:0px;
+}
+.font_footer{
+	font-size: 12px;
+}
+.selectedleftmenu {
+	background-color: #00af33;
+	color: #fff;
+}
+.topnavmenu{
+	font-size: 12px;
+}
+.dropnavmenu{
+	font-size: 12px;
+}
+.text_center{
+	text-align: center;
+}
+.border_top{
+	border-top : 4px solid #E40000;
+}
+
+.navbar {
+    min-height: 0 !important;
+}

@@ -1,0 +1,37 @@
+ 
+apply plugin: 'war' 
+
+
+buildDir = 'war'
+war.archiveName "web-app.war"
+
+
+
+war {    
+	from('resources')  {
+        include '*.properties'
+		include '*.xml'
+        into 'WEB-INF/classes/'
+    }    
+    webXml = file('src/main/webapp/WEB-INF/web.xml')	
+}
+
+
+sourceSets {
+	main {
+        java {
+            srcDir 'src/java'
+        }
+        resources {
+            srcDir 'src/resources'
+        }
+    }
+	test {
+        java {
+            srcDir 'src/java'
+        }
+        resources {
+            srcDir 'src/resources'
+        }
+    }
+}

@@ -1,0 +1,170 @@
+[
+	{
+		"levelId" : "CitiChart",
+		"childLevel" : [
+			{ "levelId" : "DetailInfo" }
+		]
+	},
+	{
+		"levelId" : "RdMasPlan",
+		"childLevel" : [
+			{ "levelId" : "RoadMasPlan"},
+			{ "levelId" : "RoadMasPlanMaps"}
+		]
+	},
+	{
+		"levelId" : "ROview",
+		"childLevel" : [
+			{ "levelId" : "OviewRHD"},
+			{ "levelId" : "KeyData"},
+			{ "levelId" : "ManPlan"},
+			{ "levelId" : "OrgDatabase"},
+			{ "levelId" : "PerDatabase"},
+			{ "levelId" : "RHDMap"},
+			{ "levelId" : "RHDRoadGazette"},
+			{ "levelId" : "RHDRoadGazette1"},
+			{ "levelId" : "LandManagementPoliciesRHD"},
+			{ "levelId" : "RHDGradationList"},
+			{ "levelId" : "ScheduleRates"}
+		]
+	},
+	{
+		"levelId" : "WingsRHD",
+		"childLevel" : [
+			{ "levelId" : "ManagementServices",
+			  "childLevel" : [
+			    { "levelId" : "ManagementServicesWing"},
+			    { "levelId" : "MISEstates"},
+			    { "levelId" : "AdminEstablishment"},
+			    { "levelId" : "TrainingHRD"},
+			    { "levelId" : "AuditAccounts"},
+			    { "levelId" : "TSMRProject"}
+			    ]
+			},
+			{ "levelId" : "PlanningMaintenance",
+			  "childLevel" : [
+			    { "levelId" : "PlanningMaintenanceWing"},
+			    { "levelId" : "PlanningProgramming"},
+			    { "levelId" : "Monitoring"},
+			    { "levelId" : "Procurement"},
+			    { "levelId" : "HDM"},
+			    { "levelId" : "Maintenance"},
+			    { "levelId" : "Economics"}
+			    ]
+			},
+			{ "levelId" : "BridgeManagement",
+			  "childLevel" : [
+			    { "levelId" : "BridgeWing"},
+			    { "levelId" : "PlanningData"},
+			    { "levelId" : "BridgeDesign"},
+			    { "levelId" : "ConstructionMaintenance"}
+			    ]
+			},
+			{ "levelId" : "TechnicalServices",
+			  "childLevel" : [
+			    { "levelId" : "TechnicalServicesWing"},
+			    { "levelId" : "RoadDesignSafety"},
+			    { "levelId" : "BRRL"},
+			    { "levelId" : "arboriculture"}
+			    ]
+			},
+			{ "levelId" : "mechanicalServices",
+			  "childLevel" : [
+			    { "levelId" : "mechanicalZone"},
+			    { "levelId" : "planningFerryConstruction"},
+			    { "levelId" : "centralEquipmentProcurement"},
+			    { "levelId" : "mechanicalFieldCirPpools"}
+			    ]
+			},
+			{ "levelId" : "zonalOperations",
+			  "childLevel" : [
+			    { "levelId" : "zonalOperations"},
+			    { "levelId" : "dhakaZone"},
+			    { "levelId" : "chittagongZone"},
+			    { "levelId" : "comillaZone"},
+			    { "levelId" : "rajshahiZone"},
+			    { "levelId" : "rangpurZone"},
+			    { "levelId" : "khulnaZone"},
+			    { "levelId" : "barisalZone"},
+			    { "levelId" : "sylhetZone"},
+			    { "levelId" : "gopalgonjZone"},
+			    { "levelId" : "mymensingZone"}
+			    ]
+			}
+		]
+	},
+	{
+		"levelId" : "intranetOverview",
+		"childLevel" : [
+			{ "levelId" : "accessProcedures"},
+			{ "levelId" : "certificationDocuments"},
+			{ "levelId" : "gettingStartedTraining"},
+			{ "levelId" : "helpline"}
+		]
+	},
+	{
+		"levelId" : "majorProjects",
+		"childLevel" : [
+			{ "levelId" : "gobFundedProjects"},
+			{ "levelId" : "foreignAidedprojects"},
+			{ "levelId" : "revisedAnnualDevelopmentPlan"},
+			{ "levelId" : "projectReports"},
+			{ "levelId" : "foreignAidedProgressReports"}
+		]
+	},
+	{
+		"levelId" : "reportsPublications",
+		"childLevel" : [
+			{ "levelId" : "annualMaintenanceRehabilation",
+			  "childLevel" : [
+			    { "levelId" : "mainReport"},
+			    { "levelId" : "resultAnalysis"}
+		    ]
+			},
+			{ "levelId" : "annualReportMoRTB"},
+			{ "levelId" : "resultAnalysis"},
+			{ "levelId" : "documentDatabase"},
+			{ "levelId" : "rHDPublications"},
+			{ "levelId" : "digitalBook"},
+			{ "levelId" : "technicalSpecification"},
+			{ "levelId" : "draftRoadTransportTraffic"},
+			{ "levelId" : "motorVehicleRegulations"},
+			{ "levelId" : "annualMaintenanceRehabilation"},
+			{ "levelId" : "needsReportDate"}
+		]
+	},
+	{
+		"levelId" : "publicProcurement",
+		"childLevel" : [
+			{ "levelId" : "consultancyServices"},
+			{ "levelId" : "miscServices"},
+			{ "levelId" : "bidEvalutionReports"},
+			{ "levelId" : "prequalication"}
+		]
+	},
+	{
+		"levelId" : "news",
+		"childLevel" : [
+			{ "levelId" : "officeOrders"},
+			{ "levelId" : "miscellaneous"}
+		]
+	},
+	{
+		"levelId" : "signin"
+	}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
